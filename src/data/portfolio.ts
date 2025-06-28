@@ -49,7 +49,7 @@ export const projects: Project[] = [
     title: "Ninexta AI - AI Agent Explorer",
     description: "A React-based platform powered by Gemini 2.0 Flash that allows users to discover AI tools using natural language queries instead of rigid tags or filters. Features intelligent query mapping, responsive UI, and individual agent pages with mock capabilities, pricing, and examples.[Work Under Progress]",
     technologies: ["React", "JavaScript", "Gemini 2.0 Flash", "HTML", "CSS", "Vite", "TailwindCSS"],
-    imageUrl: "public/Images/pexels-thisisengineering-3913025.jpg",
+    imageUrl: "/Images/pexels-thisisengineering-3913025.jpg",
     githubUrl: "https://github.com/mohithgowdak/Ninexta",
     liveUrl: "https://ninexta-ai.netlify.app",
     featured: true
@@ -59,7 +59,7 @@ export const projects: Project[] = [
     title: "Digital Legacy Platform",
     description: "An in-progress secure platform to manage and transfer digital assets after death. Includes MetaMask wallet login, JWT authentication, categorized asset uploads, Ethereum-based wallet integration, and transfer instructions.",
     technologies: ["FastAPI", "Python", "MetaMask", "Ethereum", "JWT", "HTML", "CSS", "JavaScript"],
-    imageUrl: "public/Images/pexels-sevval-724207784-18334305.jpg",
+    imageUrl: "/Images/pexels-sevval-724207784-18334305.jpg",
     githubUrl: "https://github.com/mohithgowdak/Projectk",
     liveUrl: "", // Live demo coming soon
     featured: false
@@ -69,7 +69,7 @@ export const projects: Project[] = [
     title: "DocuShare Hub",
     description: "A Django-based online notes-sharing platform with responsive design, admin-managed content, and streamlined interfaces for users and administrators. Built using Python, Django, SQLite3, HTML, and CSS to ensure accessibility and a smooth user experience across devices.",
     technologies: ["Python", "Django", "SQLite3", "HTML", "CSS"],
-    imageUrl: "public/Images/pexels-rdne-7821684.jpg", // Add or update with actual image path
+    imageUrl: "/Images/pexels-rdne-7821684.jpg", // Add or update with actual image path
     githubUrl: "https://github.com/mohithgowdak/NewNotesSharing", // Replace with your real GitHub link
     liveUrl: "", // Add live deployment link if available
     featured: false

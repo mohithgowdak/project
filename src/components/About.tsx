@@ -59,7 +59,7 @@ const About: React.FC = () => {
           >
             <div className="relative">
               <img
-                src="public/Images/professional_headshot.jpg"
+                src="/Images/professional_headshot.jpg"
                 alt="Professional headshot"
                 className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
               />
