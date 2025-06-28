@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Heart, Github, Linkedin, Mail, BookOpen } from 'lucide-react';
+import { Heart, Github, Linkedin, Mail, BookOpen, Instagram } from 'lucide-react';
 import { personalInfo } from '../data/portfolio';
 
 const Footer: React.FC = () => {
@@ -105,6 +105,15 @@ const Footer: React.FC = () => {
               className="text-gray-400 hover:text-white transition-colors duration-200"
             >
               <Linkedin size={24} />
+            </motion.a>
+            <motion.a
+              href="https://www.instagram.com/mohithgowdak_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.1 }}
+              className="text-gray-400 hover:text-white transition-colors duration-200"
+            >
+              <Instagram size={24} />
             </motion.a>
             <motion.a
               href={personalInfo.medium}
