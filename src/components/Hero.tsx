@@ -79,14 +79,17 @@ const Hero: React.FC<HeroProps> = ({ onChatOpen }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
           >
-            <motion.button
+            <motion.a
+              href="https://drive.google.com/file/d/1AKLqL6bLOYDbqJ9WX6rONp5xBEiAkwI1/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 shadow-lg"
             >
               <Download size={20} />
               Download Resume
-            </motion.button>
+            </motion.a>
 
             <motion.button
               onClick={onChatOpen}
