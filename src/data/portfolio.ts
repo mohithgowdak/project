@@ -38,7 +38,7 @@ export const projects: Project[] = [
     title: "AgriConnect - AI-Powered Agri-Trade Platform",
     description: "A full-stack mobile-first platform connecting farmers, global buyers, and logistics partners using React Native and Supabase. Features include real-time chat, crop management, role-based onboarding, document verification, and marketplace discovery — designed to eliminate middlemen and empower direct trade. [Work Under Progress]",
     technologies: ["React Native", "Expo Router", "Supabase", "PostgreSQL", "JavaScript", "TypeScript", "Lucide", "OTP Auth"],
-    imageUrl: "Images/agriconnect.png", // Replace with your project banner path
+    imageUrl: "/Images/agriconnect.png", // Replace with your project banner path
     githubUrl: "https://github.com/mohithgowdak/agricuture_platform", // Update if private or hosted elsewhere
     liveUrl: "", // Optional: Add if you deploy as a PWA or mobile demo
     featured: false
