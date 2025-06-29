@@ -16,12 +16,12 @@ export const projects: Project[] = [
   {
     id: "1",
     title: "Micro-Expression Recognition based on TV-L1 based Hierarchical Transformer Network",
-    description: "Developed a micro-expression recognition system by integrating (1) TV-L1 optical flow for capturing subtle facial motion, and (2) HTNet for deep spatial-temporal feature learning, achieving (3) a UF1 score of 0.9722 and ECE of 0.1131 on CASME II, SAMM, and SMIC datasets, enabling real-time, high-accuracy emotion detection for applications in security, mental health diagnostics, and human-computer interaction.",
+    description: "Aimed to explore the application of Hierarchical Transformer Networks (HTNet) in micro-expression recognition by combining TV-L1 optical flow for extracting subtle facial motion dynamics with HTNet for deep spatial-temporal feature learning. Achieved a UF1 score of 0.9722 and ECE of 0.1131 on CASME II, SAMM, and SMIC datasets. Enabled real-time, high-accuracy emotion recognition for use cases in security, mental health diagnostics, and human-computer interaction.",
     technologies: ["Python", "PyTorch", "OpenCV", "MediaPipe", "MTCNN", "NumPy", "Matplotlib", "TV-L1 Optical Flow Algorithm", "Hierarchical Transformer Network (HTNet)"],
-    imageUrl: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageUrl: "/Images/microexpression.jpg",
     //githubUrl: "https://github.com/Mohith johnson/ecommerce-platform",
     //liveUrl: "https://ecommerce-demo.vercel.app",
-    featured: false
+    featured: true
   },
   {
     id: "2",
@@ -35,15 +35,14 @@ export const projects: Project[] = [
   },
   {
     id: "3",
-    title: "MindMend – Mental Health Support Platform",
-    description: "A Flask-based mental health support platform with appointment booking, real-time chat via Socket.IO, email notifications using Flask-Mail, and emotion analysis with text2emotion for personalized content recommendations, built with a clean UI for both users and counselors.",
-    technologies: ["Python", "Flask", "HTML", "CSS", "JavaScript", "SQLite", "Socket.IO", "Flask-Mail", "text2emotion"],
-    imageUrl: "/Images/image.png",
-    githubUrl: "https://github.com/mohithgowdak/MindMend_development_mode",
-    //liveUrl: "https://mindmend-platform.netlify.app",
+    title: "AgriConnect - AI-Powered Agri-Trade Platform",
+    description: "A full-stack mobile-first platform connecting farmers, global buyers, and logistics partners using React Native and Supabase. Features include real-time chat, crop management, role-based onboarding, document verification, and marketplace discovery — designed to eliminate middlemen and empower direct trade. [Work Under Progress]",
+    technologies: ["React Native", "Expo Router", "Supabase", "PostgreSQL", "JavaScript", "TypeScript", "Lucide", "OTP Auth"],
+    imageUrl: "Images/agriconnect.png", // Replace with your project banner path
+    githubUrl: "https://github.com/mohithgowdak/agricuture_platform", // Update if private or hosted elsewhere
+    liveUrl: "", // Optional: Add if you deploy as a PWA or mobile demo
     featured: false
   },
-  
   {
     id: "4",
     title: "Ninexta AI - AI Agent Explorer",
@@ -52,16 +51,26 @@ export const projects: Project[] = [
     imageUrl: "/Images/pexels-thisisengineering-3913025.jpg",
     githubUrl: "https://github.com/mohithgowdak/Ninexta",
     liveUrl: "https://ninexta-ai.netlify.app",
-    featured: true
+    featured: false
   },
   {
     id: "5",
     title: "Digital Legacy Platform",
-    description: "An in-progress secure platform to manage and transfer digital assets after death. Includes MetaMask wallet login, JWT authentication, categorized asset uploads, Ethereum-based wallet integration, and transfer instructions.",
+    description: "An in-progress secure platform to manage and transfer digital assets after death. Includes MetaMask wallet login, JWT authentication, categorized asset uploads, Ethereum-based wallet integration, and transfer instructions. [Work Under Progress]",
     technologies: ["FastAPI", "Python", "MetaMask", "Ethereum", "JWT", "HTML", "CSS", "JavaScript"],
     imageUrl: "/Images/pexels-sevval-724207784-18334305.jpg",
     githubUrl: "https://github.com/mohithgowdak/Projectk",
     liveUrl: "", // Live demo coming soon
+    featured: false
+  },
+  {
+    id: "6",
+    title: "MindMend – Mental Health Support Platform",
+    description: "A Flask-based mental health support platform with appointment booking, real-time chat via Socket.IO, email notifications using Flask-Mail, and emotion analysis with text2emotion for personalized content recommendations, built with a clean UI for both users and counselors.",
+    technologies: ["Python", "Flask", "HTML", "CSS", "JavaScript", "SQLite", "Socket.IO", "Flask-Mail", "text2emotion"],
+    imageUrl: "/Images/image.png",
+    githubUrl: "https://github.com/mohithgowdak/MindMend_development_mode",
+    //liveUrl: "https://mindmend-platform.netlify.app",
     featured: false
   },
   {
