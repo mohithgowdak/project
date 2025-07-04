@@ -9,7 +9,7 @@ export const personalInfo = {
   linkedin: "https://linkedin.com/in/mohith-gowda-k",
   github: "https://github.com/mohithgowdak",
   medium: "https://medium.com/@wintersoldie",
-  summary: "Computer Science graduate (BE, 2025) with a strong foundation in AI, Computer Vision, and behavior-aware systems. Seeking an AI/ML or Computer Vision Engineer role to apply deep learning, pose tracking, and real-time recognition to impactful products. Passionate about translating research into real-world systems."
+  summary: "Computer Science graduate (BE, 2025) with a strong foundation in AI, Computer Vision, and behavior-aware systems. Seeking an AI/ML or Computer Vision Projects to apply deep learning, pose tracking, and real-time recognition to impactful products. Passionate about translating research into real-world systems."
 };
 
 export const projects: Project[] = [
