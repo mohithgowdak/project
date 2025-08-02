@@ -141,7 +141,7 @@ export const education: Education[] = [
     degree: "Bachelor of Engineering in Computer Science and Engineering",
     institution: "Sri Jayachamarajendra College of Engineering",
     duration: "2020 – 2024",
-    gpa: "8.9/10.0",
+    gpa: "9.0/10.0",
     achievements: [
       "Completed specialized coursework in AI, Networks, and Cybersecurity",
       "Final year project on Facial Expression Recognition using Optical Flow and Deep Learning",
