@@ -74,7 +74,7 @@ const About: React.FC = () => {
             className="space-y-6"
           >
             <p className="text-lg text-gray-700 leading-relaxed">
-            I’m a Computer Science Engineering student (Class of 2025) with hands-on experience across product support, software engineering, and applied tech projects. Currently at SAP Labs, I’m learning how large-scale enterprise systems operate and how to deliver reliable solutions that serve real users.
+            I’m a Computer Science Engineering graduate (Class of 2025) with hands-on experience across product support, software engineering, and applied tech projects. Currently at SAP Labs, I’m learning how large-scale enterprise systems operate and how to deliver reliable solutions that serve real users.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">

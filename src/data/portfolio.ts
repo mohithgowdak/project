@@ -2,9 +2,8 @@ import { Project, Experience, Education, BlogPost } from '../types';
 
 export const personalInfo = {
   name: "Mohith Gowda K",
-  title: "Recent Computer Science Graduate",
+  title: "Computer Science Graduate",
   email: "mohithgowdak.kote@gmail.com",
-  phone: "+91 8123118077",
   location: "Bengaluru, Karnataka, India",
   linkedin: "https://linkedin.com/in/mohith-gowda-k",
   github: "https://github.com/mohithgowdak",
@@ -90,7 +89,7 @@ export const projects: Project[] = [
 export const experience: Experience[] = [
   {
     id: "1",
-    title: "iXp Intern | Associate Solution Engineer",
+    title: "iXp Intern | Associate Solution Support Engineer",
     company: "SAP Labs India Pvt Ltd",
     duration: "Jan 2025 – Present",
     description: [
